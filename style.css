@@ -1,0 +1,45 @@
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+tr:nth-child(1) {
+    background: #f0f0f0;
+}
+
+tr:nth-child(2n) {
+	background: #f5f5f5; 
+}
+
+tr:hover td{
+	background: lightblue;
+}
+
+.width-100 {
+	width: 100px;
+}
+
+.width-130 {
+	width: 130px;
+}
+
+.bold-red {
+	font-weight: bold;
+	color: #e65a58;
+}
+
+#culcSum:hover {
+	text-decoration: underline;
+}

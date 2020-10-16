@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ДБО Софт</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	
+	<table id="table">
+		<tr>
+		    <th>Название товара</th>
+		    <th class="width-130">Количество</th>
+		    <th class="width-130">Стоимости 1ед.</th>
+		    <th class="width-100">Общая стоимость</th>
+		</tr>
+		<tr>
+			<td>Красный носок</td>
+			<td><input type="text" oninput="calculatePrice(this)"></td>
+			<td><input type="text" oninput="calculatePrice(this)"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Синий носок</td>
+			<td><input type="text" oninput="calculatePrice(this)"></td>
+			<td><input type="text" oninput="calculatePrice(this)"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Бесцветный носок</td>
+			<td><input type="text" oninput="calculatePrice(this)"></td>
+			<td><input type="text" oninput="calculatePrice(this)"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="3" class="bold-red">Общая стоимость всех товаров</td>
+			<td id="culcSum" onclick="sort()"></td>
+		</tr>
+	</table>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
